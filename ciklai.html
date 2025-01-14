@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciklai - Interactive Installation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Libre Baskerville', serif;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        nav {
+            width: 200px;
+            background-color: #fff;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 20px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        .content {
+            flex: 1;
+            padding: 40px;
+            background-image: url('image2.webp');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .text-box {
+            max-width: 600px;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                width: 150px;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Pradinis</a>
+        <a href="#">Darbai</a>
+        <a href="#">Kontaktai</a>
+        <a href="#">Kita</a>
+    </nav>
+    <div class="content">
+        <div class="text-box">
+            <h1>Ciklai</h1>
+            <p>Interaktyvi instaliacija. Instaliacijos sąveiką žiūrovų judėjimo duomenys ir cellular automata principu veikianti vizualizacija, kuri dalyvio lokacijoje kiekvieno perskaičiavimo metu prideda šviesumo koeficientą.</p>
+            <p>Remiantis filosofo Gilbert Simondon aprašomu konceptu, kuris jis vadina individuacija - kai erdvėje esančių įtampų ir potencialų realizacija sukuria individą.</p>
+        </div>
+    </div>
+</body>
+</html>
