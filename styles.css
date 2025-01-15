@@ -58,42 +58,33 @@ nav ul li a {
 /* Content styles */
 .content {
     width: 30%;
-    padding: 20px;
-    margin-right: 20px;
-    margin-top: 15%;
     position:relative;
     left: 60%;
-    background: rgba(256,256,256, .6)
+    background: rgba(256,256,256, .6);
+    padding:10px;
+    font-size: 0.6rem;
 
 }
 
 .content p {
-    font-size: 0.8rem;
-    line-height: 1.6;
     text-align: left;
-    padding:2%;
-    height: 18rem;
+    height: 12rem;
     overflow:scroll;
     
-}
-.content h3, h6 {
-    position: relative;
-    left:3%;
 }
 .video video {
     width: 55%;
     height:auto;
     position:absolute;
     left:43.1%;
-    top:80%;
+    bottom:15%;
 }
 .video p{
-    font-size: 0.8rem;
-    line-height: 1.6;
+    font-size: 0.6rem;
     text-align: left;
     padding:2%;
-    top:80%;
-    left:3rem;
+    bottom: 10%;
+    left:1rem;
     max-height: 30%;
     width:30%;
     position: absolute;
@@ -126,12 +117,12 @@ nav ul li a {
     height: auto;
     position: absolute;
     left: 40%;
-    top:55%;
+    top:40%;
     padding: 4%;
     opacity:0.6;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 800px) {
     .descr {
         font-size: 1rem;
         width: 20%;
