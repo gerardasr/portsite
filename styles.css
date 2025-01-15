@@ -9,15 +9,14 @@ body, ul, li, a, p {
 
 /* Set the background image for the page */
 body {
-    background-image: url('image-2.webp'); /* Replace with your image path */
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    font-family: Arial, sans-serif;
+    background-size: 100% auto; /* Scales the image to fit the width, height adjusts automatically */
+    background-position: top center; /* Aligns the image to the top */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    min-height: 100vh; /* Ensures the body is at least the height of the viewport */
+    font-family: "IBM Plex Sans Condensed", serif;
+    font-weight: 300;
+    font-style:normal;
+    background-color: #f0f0f0; /* Fallback color if the image doesn't load */
 }
 
 /* Navigation bar styles */
@@ -26,6 +25,7 @@ nav {
     text-align: left;
     padding: 20px 0;
     background-color: transparent; /* No background */
+    
 }
 
 nav ul {
@@ -39,21 +39,145 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 18px;
-    color: black;
+    font-size: 22px;
+    color: white;
+    mix-blend-mode: difference;
 }
 
 /* Content styles */
 .content {
-    width: 40%;
+    width: 30%;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     margin-right: 20px;
-    margin-top: 20px;
-    border-radius: 8px;
+    margin-top: 15%;
+    position:relative;
+    left: 65%;
+    background: rgba(256,256,256, .3)
+
 }
 
 .content p {
-    font-size: 16px;
+    font-size: 0.8rem;
     line-height: 1.6;
+    text-align: left;
+    padding:2%;
+    height: 18rem;
+    overflow: scroll;
+    
+}
+
+.ciklai {
+    position:absolute;
+    right:110%;
+    bottom:25%;
+}
+
+.ciklai h6 {
+    font-size:1.8rem;
+    font-weight:200;
+}
+.ciklai h5{
+    position:absolute;
+    bottom:8%;
+    left:4%;
+    font-weight:200;
+    font-size:0.7rem;
+}
+
+.video video {
+    width: 55%;
+    height:auto;
+    position:absolute;
+    left:43.1%;
+    top:120%;
+}
+.video p{
+    font-size: 0.8rem;
+    line-height: 1.6;
+    text-align: left;
+    padding:2%;
+    top:120%;
+    left:3rem;
+    max-height: 30%;
+    width:30%;
+    position: absolute;
+    overflow: scroll;
+    background: rgba(256,256,256, .3)
+}
+.picr img{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 40%;
+    padding: 4%;
+}
+
+
+@media (min-width: 1080px) {
+    .content {
+        width: 30%;
+        padding: 20px;
+        margin-right: 20px;
+        margin-top: 15%;
+        position:relative;
+        left: 63%;
+        background: rgba(256,256,256, .3)
+
+    }
+    
+    .content p {
+        font-size: 1rem;
+        line-height: 1.6;
+        text-align: left;
+        padding:3%;
+        
+    }
+
+    .ciklai {
+        position:absolute;
+        right:110%;
+        bottom:15%;
+    }
+
+    .ciklai h6 {
+        font-size:2.5rem;
+        font-weight:200;
+    }
+
+    .ciklai h5{
+        position:absolute;
+        bottom:15%;
+        left:4%;
+        font-weight:200;
+    }
+    .video video {
+        width: 55%;
+        padding-bottom:10%;
+        height:auto;
+        position:absolute;
+        left:43.1%;
+        top:130%;
+    }
+    .video p{
+        font-size: 1rem;
+        line-height: 1.6;
+        text-align: left;
+        padding:2%;
+        top:130%;
+        left:3rem;
+        max-height: 24rem;
+        width:30%;
+        position: absolute;
+        overflow: scroll;
+        background: rgba(256,256,256, .3)
+    }
+    .picr img{
+        width: 60%;
+        height: auto;
+        position: absolute;
+        left: 40%;
+        top:55%;
+        padding: 4%;
+        opacity:0.6;
+    }
 }
