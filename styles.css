@@ -136,11 +136,12 @@ nav ul li a {
         background: rgba(256,256,256, .9)
     }
     .content {
+        font-size:1rem;
         width: 30%;
-        padding-bottom:60px;
+        padding-bottom:30px;
         position:relative;
         left: 60%;
-        bottom:50px;
+        top: 8rem;
         background: rgba(256,256,256, .6)
     }
     
@@ -170,7 +171,7 @@ nav ul li a {
         padding:2%;
         top:130%;
         left:3rem;
-        max-height: 24rem;
+        height: 24rem;
         width:30%;
         position: absolute;
         background: rgba(256,256,256, .6)
