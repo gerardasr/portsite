@@ -43,7 +43,18 @@ nav ul li a {
     color: white;
     mix-blend-mode: difference;
 }
-
+.descr {
+    font-size: 0.8rem;
+    width: 30%;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 6%;
+    position:absolute;
+    left: 10%;
+    overflow: scroll;
+    max-height:18rem;
+    background: rgba(256,256,256, .9)
+}
 /* Content styles */
 .content {
     width: 30%;
@@ -51,8 +62,8 @@ nav ul li a {
     margin-right: 20px;
     margin-top: 15%;
     position:relative;
-    left: 65%;
-    background: rgba(256,256,256, .3)
+    left: 60%;
+    background: rgba(256,256,256, .6)
 
 }
 
@@ -62,94 +73,98 @@ nav ul li a {
     text-align: left;
     padding:2%;
     height: 18rem;
-    overflow: scroll;
+    overflow:scroll;
     
 }
-
-.ciklai {
-    position:absolute;
-    right:110%;
-    bottom:25%;
+.content h3, h6 {
+    position: relative;
+    left:3%;
 }
-
-.ciklai h6 {
-    font-size:1.8rem;
-    font-weight:200;
-}
-.ciklai h5{
-    position:absolute;
-    bottom:8%;
-    left:4%;
-    font-weight:200;
-    font-size:0.7rem;
-}
-
 .video video {
     width: 55%;
     height:auto;
     position:absolute;
     left:43.1%;
-    top:120%;
+    top:80%;
 }
 .video p{
     font-size: 0.8rem;
     line-height: 1.6;
     text-align: left;
     padding:2%;
-    top:120%;
+    top:80%;
     left:3rem;
     max-height: 30%;
     width:30%;
     position: absolute;
-    overflow: scroll;
-    background: rgba(256,256,256, .3)
+    background: rgba(256,256,256, .6);
+    overflow:scroll;
 }
+
+.video2 video {
+    width: 55%;
+    height:auto;
+    position:relative;
+    top:25rem;
+    left:5%;
+}
+.video2 p{
+    font-size: 0.8rem;
+    width: 30%;
+    padding: 20px;
+    margin-left: 50%;
+    position:relative;
+    top:10rem;
+    left: 12%;
+    overflow: scroll;
+    background: rgba(256,256,256, .9);
+    max-height: 18rem;
+}
+
 .picr img{
     width: 60%;
     height: auto;
     position: absolute;
     left: 40%;
+    top:55%;
     padding: 4%;
+    opacity:0.6;
 }
 
-
 @media (min-width: 1080px) {
-    .content {
-        width: 30%;
+    .descr {
+        font-size: 1rem;
+        width: 20%;
         padding: 20px;
         margin-right: 20px;
-        margin-top: 15%;
+        margin-top: 6%;
+        position:absolute;
+        left: 10%;
+        overflow: scroll;
+        max-height:22rem;
+        background: rgba(256,256,256, .9)
+    }
+    .content {
+        width: 30%;
+        padding-bottom:60px;
         position:relative;
-        left: 63%;
-        background: rgba(256,256,256, .3)
-
+        left: 60%;
+        bottom:50px;
+        background: rgba(256,256,256, .6)
     }
     
     .content p {
         font-size: 1rem;
-        line-height: 1.6;
         text-align: left;
-        padding:3%;
+        padding:1%;
         
     }
 
-    .ciklai {
-        position:absolute;
-        right:110%;
-        bottom:15%;
+    .content h3, h6 {
+        position: relative;
+        left:1.5%;
     }
 
-    .ciklai h6 {
-        font-size:2.5rem;
-        font-weight:200;
-    }
-
-    .ciklai h5{
-        position:absolute;
-        bottom:15%;
-        left:4%;
-        font-weight:200;
-    }
     .video video {
         width: 55%;
         padding-bottom:10%;
@@ -160,7 +175,6 @@ nav ul li a {
     }
     .video p{
         font-size: 1rem;
-        line-height: 1.6;
         text-align: left;
         padding:2%;
         top:130%;
@@ -168,9 +182,31 @@ nav ul li a {
         max-height: 24rem;
         width:30%;
         position: absolute;
-        overflow: scroll;
-        background: rgba(256,256,256, .3)
+        background: rgba(256,256,256, .6)
     }
+
+    .video2 video {
+        width: 55%;
+        height:auto;
+        position:relative;
+        padding-top:15%;
+        padding-bottom:5%;
+        left:5%;
+    }
+    .video2 p{
+        font-size: 1rem;
+        width: 30%;
+        padding: 20px;
+        margin-left: 50%;
+        position:absolute;
+        top:78%;
+        left: 16%;
+        overflow: scroll;
+        background: rgba(256,256,256, .9);
+        height: 24rem;
+        width:16rem;
+    }
+
     .picr img{
         width: 60%;
         height: auto;
