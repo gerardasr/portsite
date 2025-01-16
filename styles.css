@@ -71,7 +71,8 @@ nav ul li a {
     height:32%;
     position:absolute;
     left:43.1%;
-    top:70%;
+    top:28rem;
+    padding-bottom:20px;
 }
 .video p{
     font-size: 0.6rem;
