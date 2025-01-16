@@ -46,9 +46,7 @@ nav ul li a {
 .descr {
     font-size: 0.6rem;
     width: 30%;
-    padding: 20px;
-    margin-right: 20px;
-    margin-top: 6%;
+    padding: 10px;
     position:absolute;
     left: 10%;
     overflow: scroll;
@@ -90,16 +88,15 @@ nav ul li a {
     width: 55%;
     position:absolute;
     left:3%;
-    top:28rem;
+    top:24rem;
 }
 .video2 p{
     font-size: 0.6rem;
     width: 30%;
-    padding: 20px;
-    margin-left: 50%;
+    padding: 10px;
     position:relative;
-    top:23.75rem;
-    left: 9%;
+    top:19.75rem;
+    left: 62%;
     overflow: scroll;
     background: rgba(256,256,256, .9);
     max-height: 18rem;
