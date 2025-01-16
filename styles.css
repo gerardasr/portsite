@@ -57,7 +57,7 @@ nav ul li a {
 }
 /* Content styles */
 .content {
-    width: 30%;
+    width: 35%;
     position:relative;
     left: 60%;
     background: rgba(256,256,256, .6);
@@ -71,17 +71,17 @@ nav ul li a {
     height:32%;
     position:absolute;
     left:43.1%;
-    top:60%;
+    top:70%;
 }
 .video p{
     font-size: 0.6rem;
     text-align: left;
     padding:20px;
-    top:7rem;
-    left:1rem;
+    left:0.5rem;
     height: 14rem;
     width:30%;
     position: relative;
+    top:4rem;
     background: rgba(256,256,256, .6)
 }
 
