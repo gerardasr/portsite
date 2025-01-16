@@ -72,12 +72,12 @@ nav ul li a {
     overflow:scroll;
     
 }
-.video video {
+.video iframe {
     width: 55%;
-    height:auto;
+    height:32%;
     position:absolute;
     left:43.1%;
-    bottom:15%;
+    top:60%;
 }
 .video p{
     font-size: 0.6rem;
@@ -92,12 +92,12 @@ nav ul li a {
     overflow:scroll;
 }
 
-.video2 video {
+.video2 iframe {
+    height: 32%;
     width: 55%;
-    height:auto;
-    position:relative;
-    top:25rem;
+    position:absolute;
     left:5%;
+    top:65%;
 }
 .video2 p{
     font-size: 0.8rem;
@@ -116,13 +116,13 @@ nav ul li a {
     width: 60%;
     height: auto;
     position: absolute;
-    left: 40%;
+    left: 30%;
     top:40%;
     padding: 4%;
     opacity:0.6;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1080px) {
     .descr {
         font-size: 1rem;
         width: 20%;
@@ -157,10 +157,10 @@ nav ul li a {
         left:1.5%;
     }
 
-    .video video {
-        width: 55%;
+    .video iframe {
+        width: 560px;
+        height:315px;
         padding-bottom:10%;
-        height:auto;
         position:absolute;
         left:43.1%;
         top:130%;
@@ -177,13 +177,12 @@ nav ul li a {
         background: rgba(256,256,256, .6)
     }
 
-    .video2 video {
-        width: 55%;
-        height:auto;
-        position:relative;
-        padding-top:15%;
-        padding-bottom:5%;
+    .video2 iframe {
+        width:560px;
+        height:315px;
+        position:absolute;
         left:5%;
+        top:70%;
     }
     .video2 p{
         font-size: 1rem;
@@ -191,8 +190,8 @@ nav ul li a {
         padding: 20px;
         margin-left: 50%;
         position:absolute;
-        top:78%;
-        left: 16%;
+        top:70%;
+        left: 12%;
         overflow: scroll;
         background: rgba(256,256,256, .9);
         height: 24rem;
