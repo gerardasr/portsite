@@ -76,12 +76,12 @@ nav ul li a {
 .video p{
     font-size: 0.6rem;
     text-align: left;
-    padding:20px;
+    padding:10px;
     left:0.5rem;
     height: 14rem;
-    width:30%;
+    width:35%;
     position: relative;
-    top:4rem;
+    top:5rem;
     background: rgba(256,256,256, .6)
 }
 
