@@ -17,7 +17,13 @@ body {
     font-weight: 300;
     font-style:normal;
     background-color: #f0f0f0; /* Fallback color if the image doesn't load */
+    animation: fadeIn 0.8s;
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 
 /* Navigation bar styles */
 nav {
@@ -39,7 +45,8 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 300;
     color: white;
     mix-blend-mode: difference;
 }
